@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.ruben.model.User;
+import com.ruben.repository.UserRepo;
 
-public class UserService {
+public class UserService implements UserRepo{
 
     private List<User> users = new ArrayList<User>();
 
