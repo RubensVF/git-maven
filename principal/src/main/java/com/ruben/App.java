@@ -15,6 +15,7 @@ public class App
     {
         UserService uService = new UserService();
 
+        //add new line only
         User user = new User("Ruben", "a@a.a");
         User user2 = new User("Ruben2", "a2@a.a");
         User user3= new User("Ruben3","a3@a.a");
